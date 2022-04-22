@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aprendiendo HTML 2</title>
+  </head>
+  <body>
+    <h3>Interacción con el usuario</h3>
+    <p>Ya hemos visto etiquetas para mostrarle información al usuario, texto, imágenes y hacer pequeñas selecciones dentro de las etiquetas. Ahora vamos a ver na forma de cómo podemos interactuar con el usuario, específicamente pedirle información.</p>
+    <form action="/formulario" method="get">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ej. Verónica">
+      <br>
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" name="apellido" placeholder="Ej. Wong">
+      <br>
+      <label for="comentario">Comentario</label>
+      <br><textarea rows="5" cols="40" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+      <br>
+      <button type="button">Tipo botón</button> (se le puede insertar una imagen con img src)
+      <br><button type="reset">Tipo reset</button> (Devuelve el formulario a sus valores iniciales)
+      <br><button type="submit">Tipo submit</button> (Los envía a una ruta)
+      <br>
+      <br>
+      <h3>Otros ejemplos de type en input:</h3>
+      <input type="email" placeholder="email">
+      <br><input type="password" placeholder="password">
+      <br><input type="radio">
+      <br><input type="checkbox">
+      <br><input type="file">
+      <p>Averiguar cómo funciona la propiedad type.</p>
+    </form>
+  </body>
+</html>
