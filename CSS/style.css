@@ -1,1 +1,73 @@
+#titulo {
+  color: red;
+}
 
+p.texto {
+  color: slateblue;
+}
+
+p.especial {
+  color: green;
+}
+
+div p {
+  color: gray;
+}
+
+div h2, div h3 {
+  color: brown;
+}
+
+* {
+  font-size: 24px;
+  color: black;
+}
+
+/*Todo lo que escriba aquí, es un comentario*/
+
+.color {
+  /*
+  border: 5px black solid;
+
+   Otras propiedades para bordes:
+   dotted
+   dashed
+   solid
+   double
+   groove
+   ridge
+   inset
+   outsed
+   none
+   hidden
+   */
+   border-style: solid;
+   border-color: blue;
+   border-radius: 5px;
+   border-width: 5px;
+   /*En width tambien se puede colocar medidas de cm, mm, il, pt, pc
+   También se pueden usar medidas relativas (consultar)*/
+}
+
+#fondo {
+  background-color: #FAD7A0;
+  /*opacity: 0.3;*/
+  height: 200px;
+  /*
+  background-image: url('coffee.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  */
+  background: #FAD7A0 url('coffee.png') repeat-y center bottom / 100px 100px;
+}
+
+.margen {
+  background-color: chocolate;
+  margin: 15px 20px 25px 30px;
+  padding: 30px 25px 20px 15px;
+  border: solid 1px black;
+  height: 50px;
+  width: 300px;
+  overflow: visible; /*Si colocas scrol, te salen barras para deslizar*/
+}
