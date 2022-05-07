@@ -3,8 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Listado de etiquetas HTML</title>
+    <style media="screen">
+      body {
+        background-color: #1A5276;
+      }
+      .container {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 30px;
+        position: relative;
+      }
+      .referencia {
+        position: absolute;
+        right: 10px;
+        top: 0;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+      }
+    </style>
   </head>
   <body>
+    <div class="container">
+    <h6 class="referencia">Referencia: <a href="https://carontestudio.com/blog/listado-de-etiquetas-html/#Listado_etiquetas_HTML">Blog CARONTE, Custom web & Design</a></h6>
+    <br>
+    <hr>
     <h1><b>Listado de Etiquetas HTML</b></h1>
     <p>Las etiquetas HTML son pequeños bloques de código, que indican al navegador cómo debe interpretar el contenido recodigo entre dichas Etiquetas.
     Las etiquetas HTML comienzan siempre con el símbolo < y terminan con >. Todas las etiquetas HTML están compuestas por una etiqueta de apertura,
@@ -14,7 +46,6 @@
     <h2>Etiquetas iniciales o de raíz:</h2>
     <ul>
       <li><b>< !DOCTYPE html ></b>, Indica al navegador que el documento está basado en el estándar HTML5.</li>
-      <br>
       <li><b>< html > < /html ></b>, Representa la raíz de un documento HTML. Todos los demás elementos de la estructura HTML deben ser recogidos dentro de estas etiquetas.</li>
     </ul>
     <h2>Metadatos del documento</h2>
@@ -22,9 +53,7 @@
       <li><b>< head > < /head ></b> Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo. El resto
         de etiquetas de metadatos, irán recogidas dentro de las etiquetas de apertura y cierre del head. Importante explicar que estos metadatos del documento, es información
         para el navegador y no contenido que será visible en la página web. A excepción de la etiqueta < title > que veremos a continuación.</li>
-        <br>
         <li><b>< title> < /title></b> Etiqueta usada para definir el título de la página web.</li>
-        <br>
         <li><b>< link></b> Se usa para enlazar recursos externos al documento HTML. El ejemplo más común son las hojas de estilo CSS</li>
         <li><b>< meta></b> Etiqueta usada para definir otros metadatos que no se pueden definir con una etiqueta HTML especifica. Por ejemplo para definir el autor del sitio, o la descripción del mismo.</li>
         <li><b>< style> </ style></b> Etiquetas usadas para introducir código CSS en línea, es decir, en el propio documento HTML.</li>
@@ -34,10 +63,15 @@
       <li><b>< body> </ body></b> Esta etiqueta posee el contenido que será mostrado en la web.</li>
       <li><b>< nav> </ nav></b> Usadas para definir el contenido que será la sección de navegación de la web.</li>
       <li><b>< main> </ main></b> Se usa para definir el contenido principal del documento. Solamente puede existir uno por documento.</li>
+      <li><b>< section></ section></b> Define una sección del documento.</li>
+      <li><b>< article> </ article></b> Define contenido independiente de la web.</li>
+      <li><b>< aside> </ aside></b> Dentro de estas etiquetas suele alojarse el contenido adicional de la web. Suele ser contenido relacionado con la web pero de poca importancia.</li>
+      <li><b>< h1>---< h6></b> Son etiquetas HTML muy importantes, ya que son usadas para jerarquizar el contenido de la web. Las etiquetas se usan para explicar brevemente el contenido que irá a continuación.</li>
+      <li><b>< header> </ header></b> Se usan para definir la cabecera la página web. Suele contener el logotipo, menú de navegación, etc.</li>
+      <li><b>< footer></ footer></b> Usada para definir el pie de página.</li>
     </ul>
 
     <hr>
-    <h3>Referencia: <a href="https://carontestudio.com/blog/listado-de-etiquetas-html/#Listado_etiquetas_HTML">Blog CARONTE, Custom web & Design</a></h3>
-
+    </div>
   </body>
 </html>
