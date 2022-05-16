@@ -30,6 +30,30 @@
       p {
         text-align: justify;
       }
+      table {
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 90%;
+        margin: auto;
+        background-color: #E5E8E8;
+      }
+      #primerac {
+        width: 20%;
+      }
+      #segundac {
+        width: 30%;
+      }
+      th {
+        padding: 10px;
+        text-align: center;
+      }
+      td {
+        padding: 15px;
+        text-align: center;
+      }
+      #desc {
+        text-align: justify;
+      }
     </style>
   </head>
   <body>
@@ -54,18 +78,19 @@
     <br>
     <table>
       <tr>
-        <th>Atributo</th>
-        <th>Etiquetas HTML5</th>
-        <th>Descripción</th>
+        <th id="primerac">Atributo</th>
+        <th id="segundac">Etiquetas HTML5</th>
+        <th id="tercerac">Descripción</th>
       </tr>
       <tr>
         <td>accept</td>
         <td>< form>, < input></td>
-        <td>Tipos de archivos aceptados por el servidor. Puedes definirlos con valores separados por comas, por ejemplo: .doc, .ods, .txt, etc. O también
+        <td id="desc">Tipos de archivos aceptados por el servidor. Puedes definirlos con valores separados por comas, por ejemplo: .doc, .ods, .txt, etc. O también
         se puede indicar un conjunto de archivos, como por ejemplo: "video/*" o "< audio/*>"</td>
       </tr>
       <tr>
         <td>accept-charset</td>
+        <td></td>
       </tr>
     </table>
     </div>
